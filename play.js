@@ -1,4 +1,6 @@
-const {connect,setupInput} = require('./client');
+const {connect} = require('./client');
+const {setupInput} = require('./input');
+
 /**
  * Establishes connection with the game server
  */
